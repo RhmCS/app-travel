@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", "Roboto", "Lexend Deca", sans-serif;
+  background-color: rgba(39, 148, 199, 0.185);
+  color: rgb(186, 192, 196);
+}
+
+.grid-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0px auto;
+  display: grid;
+  gap: 1rem;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+}
+
+.grid-item {
+  padding: 1rem;
+  margin: 30px;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.navBarLogo > h1 {
+  padding: 0;
+  margin: 10px;
+  display: inline-block;
+  color: #fff;
+}
+
+span {
+  color: rgb(39, 148, 199);
+}
+
+.content > h3 {
+  color: rgb(186, 192, 196);
+  text-transform: uppercase;
+  font-weight: 400px;
+  margin: 10px;
+}
+
+.content-para {
+  font-size: 40px;
+  margin: 10px;
+  color: #fff;
+}
+
+p {
+  color: rgb(186, 192, 196);
+  font-weight: 600;
+  margin: 10px;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel App</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">
+        <div class="header">
+            <nav class="navBar">
+              <div class="navBarLogo">
+                <img class="logo" src="../media/globe.png" alt="globe" />
+                <h1>Travel app<span>.</span></h1>
+              </div>
+            </nav>
+          </div>
+          
+        <div class="container-body">
+            <div class="content">
+              <h3>Trips Anywhere</h3>
+              <p class="content-para">
+                <span>“</span>Remember that happiness is a way of travel, not a
+                destination<span>”</span>
+              </p>
+              <p>
+                Travel is the movement of people between distant geographical
+                locations.
+              </p>
+            </div>
+              <br />
+              <form  id="my_form">
+              <div class="other-input">
+                <div class="input-group">
+                  <input  class="input-style input-size" id="city"  type="text" placeholder="Enter your destination" />
+                </div>
+  
+                <div class="input-group">
+                  <input class="input-style input-size"  id="date" type="date" />
+                </div>
+              </div>
+  
+              <div class="btn">
+                <!-- onclick="return Client.handelSubmit(event)"
+                onsubmit="return handelSubmit(event)"  -->
+                <button     
+                class="btn-style btn-primary" id="generate" type="submit">
+                  Submit
+                </button>
+                <!-- <button class="btn-style btn-primary" id="remove" type="submit">
+                  reset
+                </button> -->
+               </div>
+          </div>
+        </form>
+      </div>
+      <div class="grid-item">
+        <div class="trip-detiles ">
+      
+          </div>
+      </div>
+    </div>
+    </div>
+    <!-- <script src="./src/index.js"></script> -->
+<script>
+  // Check that service workers are supported
+      if ('serviceWorker' in navigator) {
+          // Use the window load event to keep the page load performant
+          window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/service-worker.js');
+          });
+      }
+  </script>  
+  </body>
+</html>

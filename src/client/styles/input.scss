@@ -1,0 +1,39 @@
+.input-style,
+button {
+  outline: none;
+  padding-left: 45px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(73, 90, 102);
+  opacity: 0.9;
+  padding: 14px;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.input-text {
+  display: inline-flex;
+  margin: 5px;
+}
+
+.input-group {
+  height: 50px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.input-size {
+  width: 37%;
+}
+
+::placeholder {
+  color: rgb(186, 192, 196);
+}
+.input-style:focus {
+  border: 3px solid rgb(118, 178, 202);
+  outline: none;
+}
