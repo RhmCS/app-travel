@@ -1,7 +1,7 @@
 ## Getting started
 
 cd into your new folder and run:
-npm install
+`npm install`
 
 ## Setting up the APIs
 
@@ -17,12 +17,12 @@ npm install
  Fill the .env file with your API keys and username like this:
 
 ```
-
+```
 API_KEY_weatherbit=****************************************
 API_KEY_pixabay=*******************************************
 Geonames_user_name = *****
-
 ```
+
 
 ## Install loaders and plugins
 
@@ -37,7 +37,7 @@ npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 ```
 
 ## Start the project
-```
+
 `npm run build-prod`
 `npm run start`
-```
+
