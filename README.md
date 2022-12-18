@@ -9,7 +9,8 @@ npm install
    weatherbit [https://www.weatherbit.io/account/create] and Pixabay[https://pixabay.com/api/docs/].
 
 ```
- Use npm or yarn to install the dotenv package npm install dotenv.
+ Use npm or yarn to install the dotenv package 
+ npm install dotenv.
  This will allow us to use environment variables we set in a new file
  Create a new .env file in the root of your project
  Go to your .gitignore file and add .env
@@ -17,9 +18,11 @@ npm install
 
 ```
 
-API_KEY_weatherbit=******\*\*******\*\*\*\*******\*\*******
-API_KEY_pixabay=****\*\*\*\*****\*\*\*\*****\*\*\*\*****
-Geonames_user_name = **\***
+API_KEY_weatherbit=****************************************
+API_KEY_pixabay=*******************************************
+Geonames_user_name = *****
+
+```
 
 ## Install loaders and plugins
 
@@ -34,6 +37,7 @@ npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 ```
 
 ## Start the project
-
+```
 `npm run build-prod`
 `npm run start`
+```
