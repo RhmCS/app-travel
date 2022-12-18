@@ -1,9 +1,25 @@
-## Getting started
+# Travel App
+
+## Description
+An app to obtains a desired trip location, start date  from the user then displays weather discription  and an image of the location using information obtained from external APIs .The app suitable for all screen's size.
+
+## Built with
+* Html5.
+* Scss.
+* JS dom.
+* Node js.
+* Express.
+* Geonames api.
+* Weatherbit api.
+* Pixabay api.
+
+# How to use it:
+## 1.Getting started
 
 cd into your new folder and run:
 `npm install`
 
-## Setting up the APIs
+## 2.Setting up the APIs
 
 1. Create an account with Geonames [http://www.geonames.org/export/web-services.html],
    weatherbit [https://www.weatherbit.io/account/create] and Pixabay[https://pixabay.com/api/docs/].
@@ -24,7 +40,7 @@ Geonames_user_name = *****
 ```
 
 
-## Install loaders and plugins
+ 2.Install loaders and plugins
 
 ```
 # Choose the necessary installation for your development mode
