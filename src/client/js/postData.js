@@ -1,6 +1,6 @@
 // Function to POST data
 async function postData(url = "", data = {}) {
-  const req = await fetch(url, {
+  const req = await fetch("http://localhost:5000/api", {
     method: "POST",
     credentials: "same-origin",
     headers: {
