@@ -1,4 +1,4 @@
-import { generate, form } from "./app";
+import { form } from "./app";
 import { getData } from "./getData";
 import { postData } from "./postData";
 import { updateData } from "./updateData";
@@ -18,7 +18,7 @@ function handelSubmit(event) {
       photo: result.photo,
       date: result.date,
     });
-
+    form.reset();
     updateData();
   });
 }
